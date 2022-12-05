@@ -1,0 +1,101 @@
+@charset "utf-8";
+
+/*
+Filename: contact.css
+Author: Noah Taylor
+Date: December 4th 2022
+
+CSS for the contact portion of my web page.
+*/
+
+/*Div. Header Styles*/
+.social > h1  {
+    color: pink;
+    text-align: left;
+    padding-left: 30px;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+    border-style: double;
+    border-color: purple;
+    border-width: 5px;
+    align-content: top;
+}
+
+.phone > h1 {
+    color: pink;
+    text-align: center;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+    border-style: double;
+    border-color: purple;
+    border-width: 5px;
+}
+
+.email > h1 {
+    color: pink;
+    text-align: right;
+    padding-right: 30px;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+    border-style: double;
+    border-color: purple;
+    border-width: 5px;
+}
+
+/*Div. Paragraph Styles*/
+.social > p {
+    color: pink;
+    text-align: left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    padding-left: 30px;
+}
+
+.phone > p {
+    color: pink;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+}
+
+.email > p {
+    color: pink;
+    text-align: right;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    padding-right: 30px;
+}
+
+/*Paragraph Styles*/
+p > b {
+    color: white;
+    font-style: bold;
+}
+
+section > p {
+    text-align: left;
+    padding-left: 10px;
+    color: rgb(192, 192, 192);
+    
+}
+
+section > aside > p {
+    text-align: center;
+    padding-right: 30px;
+    
+}
+
+footer > p {
+    background-color: orangered;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: medium;
+}
+
+.flex-wrapper {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    justify-content: space-between;
+}

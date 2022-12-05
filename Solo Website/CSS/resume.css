@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+/*
+Filename: resume.css
+Author: Noah Taylor
+Date: December 4th 2022
+
+CSS For the resume portion of my web page
+*/
+
+/*Header Styles*/
+h1 {
+    color: wheat;
+    text-align: center;
+    font-style: italic;
+    font-family:'Times New Roman', Times, serif;
+    border-style: double;
+    border-color: orange;
+    border-width: 5px;
+    font-size: xx-large;
+}
+
+/*Paragraph Styles*/
+p {
+    color: rgb(187, 162, 116);
+    text-align: left;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: x-large;
+    padding-left: 25px;
+}
+
+p > b {
+    color: rgb(177, 170, 170);
+    font-style: italic;
+}
+
+section > p {
+    text-align: left;
+    padding-left: 10px;
+    color: rgb(192, 192, 192);
+}
+
+section > aside > p {
+    text-align: right;
+    padding-right: 30px;
+}
+
+footer > p {
+    background-color: orangered;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: medium;
+}
+
+/*Resume/Cover Letter Image Styles*/
+.me {
+    float: right;
+    height: 400px;
+    width: 400px;
+    padding-right: 50px;
+}
+
+section > img {
+    width: 800px;
+    height: 1000px;
+}
+
+.cover {
+    width: 925px;
+    height: 1250px;
+    float: left;
+}
+
+.resume {
+    width: 925px;
+    height: 1250px;
+    float: right;
+}
+
+
+/* Style buttons */
+.resumedownload {
+    background-color: orangered;
+    border: none;
+    color: black;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+  
+.resumedownload:hover {
+    background-color: orange;
+}
+
+.coverdownload {
+    background-color: orangered;
+    border: none;
+    color: black;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 20px;
+}
+  
+.coverdownload:hover {
+    background-color: orange;
+}
