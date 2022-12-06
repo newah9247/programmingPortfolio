@@ -47,8 +47,8 @@ img {
 
 /*Nav Styles*/
 nav {
-    float: right;
     padding-bottom: 10px;
+    display: inline-block;
 }
 
 nav ul {
